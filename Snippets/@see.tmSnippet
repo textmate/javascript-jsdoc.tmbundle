@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>@see</string>
 	<key>scope</key>
-	<string>source.js comment.block</string>
+	<string>source.js comment.block.documentation</string>
 	<key>tabTrigger</key>
 	<string>see</string>
 	<key>uuid</key>

@@ -8,7 +8,7 @@ ${2: * @type ${3:String|Object|Array|Boolean|Number}}</string>
 	<key>name</key>
 	<string>@returns</string>
 	<key>scope</key>
-	<string>source.js comment.block</string>
+	<string>source.js comment.block.documentation</string>
 	<key>tabTrigger</key>
 	<string>ret</string>
 	<key>uuid</key>
