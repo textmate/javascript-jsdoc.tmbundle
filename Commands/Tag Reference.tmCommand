@@ -5,18 +5,28 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>echo "&lt;meta http-equiv='Refresh' content='0;URL=http://jsdoc.sourceforge.net/#tagref'&gt;"</string>
+	<string>#!/bin/bash
+
+echo "&lt;meta http-equiv='Refresh' content='0;URL=http://usejsdoc.org/#block-tags'&gt;"</string>
 	<key>input</key>
 	<string>none</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>^h</string>
 	<key>name</key>
 	<string>Tag Reference</string>
-	<key>output</key>
-	<string>showAsHTML</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
 	<key>scope</key>
 	<string>source.js comment.block</string>
 	<key>uuid</key>
 	<string>DF0329A2-993B-4366-B055-3161E1799FEA</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
